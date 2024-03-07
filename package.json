@@ -1,0 +1,20 @@
+{ "name": "node-parser"
+, "description": "Δt html parser - async & dynamic templating engine"
+, "version": "0.0.1"
+, "homepage": "https://github.com/remesharks/node-parser.git"
+, "repository": {"type": "git", "url": "https://github.com/remesharks/node-parser.git"}
+, "main": "dt-parser.js"
+, "engines": {"node": ">= 0.8.x"}
+, "keywords": ["dt", "async", "dynamic", "event", "template", "generation", "hmtl", "parser"]
+, "scripts": {
+    "prepublish": "cake build"}
+, "dependencies": {
+    "htmlparser2": "3.x.x"}
+, "peerDependencies": {
+    "dynamictemplate": ">= 0.7.0"}
+, "devDependencies": {
+    "browserify": "1.6.1",
+    "scopify": ">= 0.2.1",
+    "muffin": ">= 0.2.6",
+    "coffee-script": ">= 1.1.3"}
+}
