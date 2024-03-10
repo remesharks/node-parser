@@ -6,8 +6,6 @@
 , "main": "dt-parser.js"
 , "engines": {"node": ">= 0.8.x"}
 , "keywords": ["dt", "async", "dynamic", "event", "template", "generation", "hmtl", "parser"]
-, "scripts": {
-    "prepublish": "cake build"}
 , "dependencies": {
     "htmlparser2": "3.x.x"}
 , "peerDependencies": {
